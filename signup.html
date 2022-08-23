@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="navbar">
+        <div class="icon">
+            <h2 class="logo">Todo</h2>
+        </div>
+     
+
+    </div> 
+    <div style="height: 700px;" id="formsign" class="form">
+        <h2>Sign up Here</h2>
+
+        <form onsubmit="doSignUp(event)">
+
+        <input type="text"    id="firstName" name="" placeholder="Enter First ">
+        <input type="text"     id="lastName" name="" placeholder="Enter Last ">
+        <input type="email"    id="email" name="" placeholder="Enter Email ">
+        <input type="number"   id="number" name="" placeholder="Enter Number ">
+        <input type="number"   id="age" name="" placeholder="Enter Age  ">
+        <input type="text"     id="gender" name="" placeholder="Enter Gender  ">
+        <input type="password" id="password"name="" placeholder="Enter Password ">
+        <input type="password" id="confirmPassword"  name="" placeholder="Confirm Password ">
+       <p style="color:red ;  padding: 3px;" id="error"></p>
+       <p style="color:#ff7200; ;  padding: 3px;" id="result"></p>
+        <button class="btnn"><a href="#">Sign up</a></button>
+    </form>
+        <p class="link"><span class="linkText">Already have an account</span> <br>
+        <a href="./login.html">Login </a></a></p>
+      
+
+
+    </div>
+   
+    <script src="signup.js"></script>
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>

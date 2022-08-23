@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body  class="login">
+  
+    <div style="height: 400px;" class="form">
+        <h2>Login Here</h2>
+        <form onsubmit="doLogin(event)">
+        <input type="email" name="email" id="email" placeholder="Enter Email Here">
+        <input type="password" name="password" id="password" placeholder="Enter Password Here">
+        <p style="color:red ;  padding: 3px;" id="error"></p>
+        
+    <button class="btnn"><a href="#">Login</a></button>
+    </form>
+        <p class="link"><span class="linkText"> Don't have an account</span><br>
+        <a href="./signup.html">Sign up </a> here</a></p>
+        <p class="liw">Log in with</p>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+  <script src="signup.js"></script>  
+<script src="./login.js"></script>
+
+
+</body>
+</html>
