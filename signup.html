@@ -7,8 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .form input{
+      
+        margin-top: 5px;
+      
+    }
+    </style> 
 </head>
-<body>
+<body class="signup">
     <div  class="navbar">
         <div class="icon">
             <h2 class="logo">Todo</h2>
@@ -16,18 +25,26 @@
      
 
     </div> 
-    <div style="height: 700px;" id="formsign" class="form">
+    <div style="height: 850px;" id="formsign" class="form">
         <h2>Sign up Here</h2>
 
         <form onsubmit="doSignUp(event)">
 
+            <label for="FullName"><i class="material-icons">person</i></label>
         <input type="text"    id="firstName" name="" placeholder="Enter First ">
+        <label for="FullName"><i class="material-icons">person</i></label>
         <input type="text"     id="lastName" name="" placeholder="Enter Last ">
+        <label for="email"><i class="material-icons">email</i></label>
         <input type="email"    id="email" name="" placeholder="Enter Email ">
+        <label for="Number"><i class="material-icons">phone</i></label>
         <input type="number"   id="number" name="" placeholder="Enter Number ">
+        <label for="Age"><i class="fa fa-calendar" style="font-size:22px"></i></label>
         <input type="number"   id="age" name="" placeholder="Enter Age  ">
+        <label for="Gender"><b><i class="fa fa-mars-double" style="font-size: 23px ;"></i></b></label>
         <input type="text"     id="gender" name="" placeholder="Enter Gender  ">
+        <label for="psw"><i class="material-icons">lock</i></label>
         <input type="password" id="password"name="" placeholder="Enter Password ">
+        <label for="psw"><i class="material-icons">lock</i></label>
         <input type="password" id="confirmPassword"  name="" placeholder="Confirm Password ">
        <p style="color:red ;  padding: 3px;" id="error"></p>
        <p style="color:#ff7200; ;  padding: 3px;" id="result"></p>

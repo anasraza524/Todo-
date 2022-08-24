@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <style>
+        .form input{
+      
+        margin-top: 30px;
+      
+    }
+    </style> 
 </head>
 <body  class="login">
   
     <div style="height: 400px;" class="form">
         <h2>Login Here</h2>
         <form onsubmit="doLogin(event)">
-        <input type="email" name="email" id="email" placeholder="Enter Email Here">
+        <input  type="email" name="email" id="email" placeholder="Enter Email Here">
         <input type="password" name="password" id="password" placeholder="Enter Password Here">
         <p style="color:red ;  padding: 3px;" id="error"></p>
         

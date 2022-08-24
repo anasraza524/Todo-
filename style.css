@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+   
+}
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
@@ -175,6 +178,7 @@ ul li a:hover{
     background-position: center;
     background-size: cover;
 }
+
 #formSignup{
     margin-top: 10%;
     margin-left: 40%;
@@ -221,7 +225,7 @@ ul li a:hover{
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
+ 
     font-family: sans-serif;
 }
 
@@ -287,4 +291,15 @@ ul li a:hover{
 }
 .icons ion-icon:hover{
     color: #ff7200;
+}
+i{
+    color: white;
+
+    height: 32px;
+width: 45px;
+padding-top: 10px;
+text-align: center;
+border-radius: 30px;
+
+
 }
